@@ -16,5 +16,14 @@ the composite or any of its parts uniformly.
 When dealing with tree-like structures where having to distinguish between a leaf and branch makes code more complex 
 and therefore more error-prone.
 
+## Implementation
 
+1. Breakdown application into simple and container elements that form the tree structure. Containers should be able 
+   to hold both simple elements and other containers.
+2. Declare the _Composite_ interface with common algorithms for both simple elements and containers.
+3. Create one or more leaf classes to represent simple elements.
+4. Create a container class to represent the composite.
+5. Add methods for adding and removing elements to a container.
 
+**Note**: You can add the methods from pt.5 in the Composite interface allowing polymorphism for the client but at the 
+price of violating _LSP_ (empty methods in leaf classes).
