@@ -1,11 +1,9 @@
 ## Structural design pattern
-
 Composite is an object designed as a composition of one or more similar objects, representing
 a tree structure which allows clients to work with
 the composite or any of its parts uniformly.
 
 ## Participants
-
 1. Component - common interface for simple and complex elements of the tree.
 2. Leaf - basic element of the tree (no subtypes).
 3. Composite _aka_ Container-contains tree elements: leaves or other containers represented by the common interface. 
@@ -17,7 +15,6 @@ When dealing with tree-like structures where having to distinguish between a lea
 and therefore more error-prone.
 
 ## Implementation
-
 1. Breakdown application into simple and container elements that form the tree structure. Containers should be able 
    to hold both simple elements and other containers.
 2. Declare the _Composite_ interface with common algorithms for both simple elements and containers.
