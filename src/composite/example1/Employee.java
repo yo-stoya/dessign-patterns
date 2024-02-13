@@ -11,7 +11,7 @@ public abstract class Employee {
         this.salary = salary;
     }
 
-    public void doWork() {}
+    public abstract void doWork();
 
     // other common algorithms
 }

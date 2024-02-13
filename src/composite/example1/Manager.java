@@ -18,6 +18,7 @@ public class Manager extends Employee {
 
     @Override
     public void doWork() {
+        System.out.println("Manager delegates to employees to work.");
         employees.forEach(Employee::doWork);
     }
 }
