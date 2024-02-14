@@ -1,4 +1,4 @@
-package builder;
+package builder.mealbuilder;
 
 public class Director {
     private final MealBuilder mealBuilder;

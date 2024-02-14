@@ -1,4 +1,4 @@
-package builder;
+package builder.mealbuilder;
 
 public class Client {
     public static void main(String[] args) {

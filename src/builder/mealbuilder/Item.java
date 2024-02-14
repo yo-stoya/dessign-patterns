@@ -1,4 +1,4 @@
-package builder;
+package builder.mealbuilder;
 
 public interface Item {
     String getName();

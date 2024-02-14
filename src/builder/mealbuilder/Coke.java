@@ -1,4 +1,4 @@
-package builder;
+package builder.mealbuilder;
 
 public class Coke extends ColdDrink {
     @Override
