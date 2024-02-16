@@ -12,9 +12,6 @@ public class Employee {
         this.department = department;
     }
 
-    public Employee() {
-    }
-
     public String getFirstName() {
         return firstName;
     }
