@@ -1,9 +1,9 @@
-package composite.example1;
+package structural.composite.example1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-// composite / container
+// structural.composite / container
 public class Manager extends Employee {
     private List<Employee> employees;
 

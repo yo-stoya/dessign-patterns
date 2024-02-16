@@ -1,4 +1,4 @@
-package composite.example1;
+package structural.composite.example1;
 
 // leaf
 public class Developer extends Employee{

@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.message;
 
 public class HTMLEncodedMessage implements Message {
     private Message message;

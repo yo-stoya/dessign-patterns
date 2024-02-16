@@ -1,4 +1,4 @@
-package composite.example2;
+package structural.composite.example2;
 
 public class AdditionExpression implements Expression {
     private final Expression leftSide;

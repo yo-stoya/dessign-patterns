@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.message;
 
 public class Client {
     public static void main(String[] args) {

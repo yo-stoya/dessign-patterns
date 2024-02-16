@@ -1,4 +1,4 @@
-package composite.example1;
+package structural.composite.example1;
 
 public abstract class Employee {
     private Integer id;

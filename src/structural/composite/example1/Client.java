@@ -1,8 +1,4 @@
-package composite.example1;
-
-import composite.example1.Developer;
-import composite.example1.Employee;
-import composite.example1.Manager;
+package structural.composite.example1;
 
 public class Client {
     public static void main(String[] args) {

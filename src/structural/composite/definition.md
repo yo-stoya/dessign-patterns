@@ -1,7 +1,7 @@
 ## Structural design pattern
 Composite is an object designed as a composition of one or more similar objects, representing
 a tree structure which allows clients to work with
-the composite or any of its parts uniformly.
+the structural.composite or any of its parts uniformly.
 
 ## Participants
 1. Component - common interface for simple and complex elements of the tree.
@@ -19,7 +19,7 @@ and therefore more error-prone.
    to hold both simple elements and other containers.
 2. Declare the _Composite_ interface with common algorithms for both simple elements and containers.
 3. Create one or more leaf classes to represent simple elements.
-4. Create a container class to represent the composite.
+4. Create a container class to represent the structural.composite.
 5. Add methods for adding and removing elements to a container.
 
 **Note**: You can add the methods from pt.5 in the Composite interface allowing polymorphism for the client but at the 

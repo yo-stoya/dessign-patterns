@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.message;
 
 import java.util.Base64;
 

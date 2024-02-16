@@ -1,4 +1,4 @@
-package composite.example2;
+package structural.composite.example2;
 
 public class Constant implements Expression {
     private final double value;

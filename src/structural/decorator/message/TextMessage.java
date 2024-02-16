@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.message;
 
 public class TextMessage implements Message {
     private String content;
