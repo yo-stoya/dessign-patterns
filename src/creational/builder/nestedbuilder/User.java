@@ -13,6 +13,10 @@ public class User {
         this.email = builder.email;
     }
 
+    public static UserBuilder builder(String firstName, String lastName) {
+        return new UserBuilder(firstName, lastName);
+    }
+
     public static class UserBuilder {
         private final String firstName;
         private final String lastName;
@@ -20,7 +24,7 @@ public class User {
         private String email;
 
         // mandatory fields
-        public UserBuilder(String firstName, String lastName) {
+        private UserBuilder(String firstName, String lastName) {
             this.firstName = firstName;
             this.lastName = lastName;
         }
