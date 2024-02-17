@@ -1,8 +1,8 @@
 package creational.factorymethod.concretecreator;
 
-public class ShapeFactory {
+public interface ShapeFactory {
 
-    public Shape getShape(ShapeType type) {
+    static Shape getShape(ShapeType type) {
         return switch (type) {
             case SQUARE -> new Square();
             case RECTANGLE -> new Rectangle();
