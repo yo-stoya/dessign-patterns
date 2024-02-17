@@ -5,6 +5,7 @@ public class Client {
         VeggieMeal mealBuilder = new VeggieMeal();
         Director director = new Director(mealBuilder);
         Meal meal = director.constructMeal();
-
+        System.out.println(meal.getCost());
+        meal.showItems();
     }
 }

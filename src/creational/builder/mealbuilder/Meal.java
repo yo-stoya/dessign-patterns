@@ -14,7 +14,6 @@ public class Meal {
         items.add(item);
     }
 
-
     public double getCost() {
         return items.stream().mapToDouble(Item::getPrice).sum();
     }
